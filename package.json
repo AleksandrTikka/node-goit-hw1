@@ -1,0 +1,22 @@
+{
+  "name": "goit-hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrTikka/node-goit-hw1.git"
+  },
+  "author": "AleksandrTikka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrTikka/node-goit-hw1/issues"
+  },
+  "homepage": "https://github.com/AleksandrTikka/node-goit-hw1#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
