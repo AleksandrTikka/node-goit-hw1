@@ -6,3 +6,4 @@ const {
 } = require("./contacts");
 
 listContacts();
+console.log(listContacts());

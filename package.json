@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/AleksandrTikka/node-goit-hw1#readme",
   "dependencies": {
-    "nanoid": "^4.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

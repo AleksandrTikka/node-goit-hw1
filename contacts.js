@@ -7,6 +7,7 @@ const listContacts = async () => {
   try {
     const data = await fs.readFile(contactsPath);
     const contacts = JSON.parse(data);
+    console.table(contacts);
     return contacts;
   } catch (error) {
     console.log(error.message);
@@ -57,7 +58,7 @@ const addContact = async (name, email, phone) => {
     console.log(error.message);
   }
 };
-
+listContacts();
 module.exports = {
   listContacts,
   getContactById,
