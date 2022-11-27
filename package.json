@@ -1,5 +1,5 @@
 {
-  "name": "goit-hw1",
+  "name": "node-goit-hw1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/AleksandrTikka/node-goit-hw1.git"
   },
-  "author": "AleksandrTikka",
+  "author": "Aleksandr Tikka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AleksandrTikka/node-goit-hw1/issues"
   },
   "homepage": "https://github.com/AleksandrTikka/node-goit-hw1#readme",
   "dependencies": {
+    "nanoid": "^4.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }

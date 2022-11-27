@@ -1,1 +1,8 @@
-console.log(215459898);
+const {
+  listContacts,
+  getContactById,
+  removeContact,
+  addContact,
+} = require("./contacts");
+
+listContacts();
