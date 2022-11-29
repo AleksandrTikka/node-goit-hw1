@@ -7,7 +7,6 @@ const listContacts = async () => {
   try {
     const data = await fs.readFile(contactsPath, "utf-8");
     return JSON.parse(data);
-    // return contacts;
   } catch (error) {
     console.log(error.message);
   }
@@ -44,7 +43,7 @@ const removeContact = async (contactId) => {
     const newData = JSON.stringify(contacts, null, 2);
     await fs.writeFile(contactsPath, newData);
     console.log(`Contact with ID: ${contactId} has been removed successfully!`);
-    console.log(`Removed contact: ${deletedContact}`);
+
     return deletedContact;
   } catch (error) {
     console.log(error.message);
@@ -59,7 +58,7 @@ const addContact = async (name, email, phone) => {
     contacts.push(newContact);
     const newData = JSON.stringify(contacts, null, 2);
     await fs.writeFile(contactsPath, newData);
-    console.log(newData);
+
     return newContact;
   } catch (error) {
     console.log(error.message);
